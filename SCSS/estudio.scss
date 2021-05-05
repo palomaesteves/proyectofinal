@@ -1,0 +1,78 @@
+
+.equipo__conteiner{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+                    }
+.equipo__integrantes__todos{
+                        margin-bottom: 30px;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        }
+.equipo__wrap{
+                overflow: hidden;
+                position: relative;
+                border-radius: 6px;
+                margin: 0;
+            } 
+.equipo__imagen{
+                max-width: 400px;
+                height: 550px;
+                filter: grayscale(100%);
+                }
+.equipo__imagen:hover{
+                filter: grayscale(0%);
+                }
+.equipo__posicion{
+                color: black;
+                font-size: 18px;
+                margin-bottom: 2px;
+                margin-top: 8px;
+                align-items: center;
+                text-transform: uppercase;
+                text-align: center;
+                }
+.equipo__descripcion{
+                color:black;
+                font-size: 15px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+                padding: 10px;
+                margin: 0 0 30px 0;
+                text-align: center;
+                    }
+   
+#equipoImagenes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    max-width: 100%;
+    max-height: 100%;
+    column-gap: 2%;
+    row-gap: 3%;
+    object-fit: cover;
+    grid-template-areas: 
+                       "equipoUno equipoDos equipoTres"
+                        "equipoCuatro equipoCinco equipoSeis";
+}
+
+#equipoUno{
+    grid-area: equipoUno;
+}
+#equipoDos{
+    grid-area: equipoDos;
+}
+#equipoTres{
+    grid-area: equipoTres;
+}
+#equipoCuatro{
+    grid-area: equipoCuatro;
+}
+#equipoCinco{
+    grid-area: equipoCinco;
+}
+#equipoSeis{
+    grid-area: equipoSeis;
+}

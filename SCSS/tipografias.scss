@@ -1,0 +1,50 @@
+//como aplico las variables aca//
+.textoTitulos{
+    font-family: Raleway;
+    color:rgb(90, 105, 90) ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textoDescripcion{
+    font-family: Raleway;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 17px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.footer__texto{
+    font-family: Raleway;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px; 
+    justify-content: flex-end;
+    font-family: Raleway;
+}
+
+.navbar-nav{
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    padding: 10px;
+    align-items: center;
+    .nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    }
+    
+}
+h3{
+    font-size: 10px; //no me agarra el tamaño de la letra//
+    margin: 20px 0 20px 20px;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,81 @@
+.imagenInteriores{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    column-gap: 2%;
+    row-gap: 3%;
+    object-fit: cover;
+    grid-template-areas: 
+                        "imagenUno imagenDos imagenTres"
+                        "imagenCuatro imagenCinco imagenSeis"
+                        "imagenSiete imagenOcho imagenNueve";
+
+}
+.img{height: 100%;
+    width: 100% !important;
+}
+.img-fluid{
+    margin-left: 30px;
+    margin-left: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.img-fluid:hover{
+    filter: brightness(100%);
+}
+
+.imagenProyectos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:33% 33% 33%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    column-gap: 2%;
+    row-gap: 3%;
+    object-fit: cover;
+    grid-template-areas: 
+                        "imagenUno imagenDos imgaenTres"
+                        "imagenCuatro imagenCinco imagenSeis"
+                        "imagenSiete imagenOcho imagenNueve";
+}
+
+img{
+    width: 100% !important;
+    max-height: 100%;
+}
+
+.imagenUno{
+    grid-area: imagenUno;
+}
+.imagenDos{
+    grid-area: imagenDos;
+}
+.imagenTres{
+    grid-area: imagenTres;
+}
+.imagenCuatro{
+    grid-area: imagenCuatro;
+}
+.imagenCinco{
+    grid-area: imagenCinco;
+}
+.imagenSeis{
+    grid-area: imagenSeis;
+}
+.imagenSiete{
+    grid-area: imagenSiete;
+}
+.imagenOcho{
+    grid-area: imagenOcho;
+    height: 100%;
+}
+.imagenNueve{
+    grid-area: imagenNueve;
+}
