@@ -18,25 +18,20 @@
 }
 .footer__powered{
       font-family: 'Courier New', Courier, monospace;
-      margin-left: 10px;
+      margin-left: 250px;
       padding-right: 10px;
-      padding-top: 20px;
-      font-size: 8px;  
-      align-items: flex-end;   
+      padding-top: 186px;
+      font-size: 10px;  
     }
 
-.footerInfo{
+.footerDescripcion{
         font-family: Raleway;
-        }
-.footerRow{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}    
+}
+
 .footerTexto{
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 0;
     font-size: 13px;
+    margin-left: 20px;
 }
