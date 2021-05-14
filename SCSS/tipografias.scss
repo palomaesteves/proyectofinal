@@ -38,13 +38,14 @@
     
 }
 h3{
-    font-size: 10px; //no me agarra el tamaño de la letra//
-    margin: 20px 0 20px 20px;
-    padding: 2px 0 2px 0;
+    font-size: 15px; //no me agarra el tamaño de la letra//
     line-height: 1;
     font-family: Raleway;
-    color:black;
+    color:rgb(90, 105, 90);
     font-weight: bold;
-    padding-bottom: 20px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
 }

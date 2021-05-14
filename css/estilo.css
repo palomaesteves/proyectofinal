@@ -208,59 +208,63 @@ form {
     line-height: 1.5; }
 
 h3 {
-  font-size: 10px;
-  margin: 20px 0 20px 20px;
-  padding: 2px 0 2px 0;
+  font-size: 15px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  color: black;
+  font-family: Raleway;
+  color: #5a695a;
   font-weight: bold;
-  padding-bottom: 20px;
-  text-transform: uppercase; }
-
-.logos {
-  text-align: center;
-  font-size: 20px;
+  text-transform: uppercase;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20px; }
+
+.redes {
+  width: 33%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
+  cursor: pointer;
   color: black; }
-  justify-content:center
-.logos__nav {
-    padding: 10px 15px; }
+
+.redes .fab {
+  margin: 30px;
+  width: 10px;
+  height: 40px;
+  border-radius: 50%; }
+
+.redes .fab:hover {
+  font-size: 45px; }
 
 .footer {
-  height: 200px;
+  height: 220px;
   flex-basis: 100%;
   margin-top: 20px;
   background-color: lightgray;
   display: flex; }
 
 .footer__powered {
+  width: 33%;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  font-size: 8px;
-  align-items: flex-end; }
-
-.footerInfo {
-  font-family: Raleway;
-  margin: 20px 20px 20px 20px;
-  padding-top: 50px;
-  text-align: center;
-  align-content: center; }
-
-.footerRow {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  align-items: flex-end;
+  font-size: 10px;
+  text-align: center; }
+
+.footerDescripcion {
+  font-family: Raleway;
+  width: 33%; }
 
 .footerTexto {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-size: 13px; }
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 body {
   background-color: white;
@@ -299,6 +303,10 @@ body {
   margin-right: 30px;
   margin-top: 30px;
   margin-bottom: 30px; }
+
+.logoFloatRight {
+  width: 40px;
+  height: 40px; }
 
 @media only screen and (max-width: 768px) {
   .conteiner {

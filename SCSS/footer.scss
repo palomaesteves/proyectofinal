@@ -1,37 +1,50 @@
-.logos{
-    text-align: center;
-    font-size: 20px;
+.redes{
+    width: 33%;
+    font-size: 40px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+    cursor: pointer;
     color: black;
-    justify-content:center
-    &__nav{
-        padding: 10px 15px;
-    }
+}
+.redes .fab{
+    margin: 30px;
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.redes .fab:hover{
+    font-size: 45px;
 }
 .footer {
-    height: 200px;
+    height: 220px;
     flex-basis: 100%;
     margin-top: 20px;
     background-color: lightgray;
     display: flex;
 }
 .footer__powered{
+      width: 33%;
       font-family: 'Courier New', Courier, monospace;
-      margin-left: 250px;
-      padding-right: 10px;
-      padding-top: 186px;
+      display: flex;
+      align-items: flex-end;
       font-size: 10px;  
+      text-align: center;
     }
 
 .footerDescripcion{
         font-family: Raleway;
+        width: 33%;
 }
 
 .footerTexto{
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 0;
-    font-size: 13px;
-    margin-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
