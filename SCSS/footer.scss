@@ -26,17 +26,40 @@
     display: flex;
 }
 .footer__powered{
-      width: 33%;
+      width: 5%;
       font-family: 'Courier New', Courier, monospace;
       display: flex;
       align-items: flex-end;
       font-size: 10px;  
       text-align: center;
     }
+   
+.footerSearch{
+    width: 29%;
+    align-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin-top: 90px;
+}
+.searchFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn btn-outline-success{
+    color: rgb(90, 105, 90) !important;
+    border-color: rgb(90, 105, 90) !important;
+}
+.form-control me-2{
+    display: flex !important;
+}
 
 .footerDescripcion{
         font-family: Raleway;
         width: 33%;
+        justify-content: center;
+        align-items: center;
 }
 
 .footerTexto{
