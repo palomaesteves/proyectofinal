@@ -215,9 +215,35 @@ h3 {
   margin-left: -20px;
   margin-top: 20px !important; }
 
+.logoAF {
+  font-family: Raleway;
+  color: #5a695a; }
+
+.footer {
+  height: 220px;
+  flex-basis: 100%;
+  margin-top: 20px;
+  background-color: lightgray;
+  display: flex;
+  grid-template-areas: "footerUno footerDos footerTres" "footerCuatro footerCuatro"; }
+
+.footerUno {
+  grid-area: footerUno; }
+
+.footerDos {
+  grid-area: footerDos; }
+
+.footerTres {
+  grid-area: footerTres; }
+
+.footerCuatro {
+  grid-area: footerCuatro;
+  justify-content: center;
+  align-items: center; }
+
 .redes {
   width: 33%;
-  font-size: 40px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,14 +258,7 @@ h3 {
   border-radius: 50%; }
 
 .redes .fab:hover {
-  font-size: 45px; }
-
-.footer {
-  height: 220px;
-  flex-basis: 100%;
-  margin-top: 20px;
-  background-color: lightgray;
-  display: flex; }
+  font-size: 55px; }
 
 .footer__powered {
   width: 5%;
@@ -247,7 +266,8 @@ h3 {
   display: flex;
   align-items: flex-end;
   font-size: 10px;
-  text-align: center; }
+  text-align: center;
+  flex-direction: row-reverse; }
 
 .footerSearch {
   width: 29%;
@@ -327,17 +347,35 @@ body {
 
 @media only screen and (max-width: 768px) {
   .contenedor {
-    grid-template-rows: 4% 76% 30%;
+    grid-template-rows: 5% 70% 25%;
     grid-template-columns: 100%; }
   .imagenProyectos {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20% 20% 20% 20%;
-    row-gap: 20px;
-    margin-top: 50px;
-    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 10px;
+    margin-top: 10px;
+    display: grid;
     margin-left: 10px;
     margin-right: 10px;
-    flex-direction: column; }
+    grid-template-areas: "imagenUno imagenDos" "imagenTres imagenCuatro" "imagenCinco imagenSeis" "imagenSiete imagenOcho" "imagenNueve imagenNueve"; }
+  .imagenUno {
+    grid-area: imagenUno; }
+  .imagenDos {
+    grid-area: imagenDos; }
+  .imagenTres {
+    grid-area: imagenTres; }
+  .imagenCuatro {
+    grid-area: imagenCuatro; }
+  .imagenCinco {
+    grid-area: imagenCinco; }
+  .imagenSeis {
+    grid-area: imagenSeis; }
+  .imagenSiete {
+    grid-area: imagenSiete; }
+  .imagenOcho {
+    grid-area: imagenOcho; }
+  .imagenNueve {
+    grid-area: imagenNueve; }
   .imagenInteriores {
     grid-template-columns: repeat(2, auto);
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -348,17 +386,18 @@ body {
     grid-template-areas: "imagenUno imagenDos" "imagenTres imagenCuatro" "imagenCinco imagenSeis" "imagenSiete imagenOcho" "imagenNueve ."; }
   .footer {
     display: flex;
-    height: 400px;
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 35% 15%;
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 30px;
     column-gap: 2%;
     row-gap: 3%;
     object-fit: cover;
-    grid-template-areas: "footerUno footerDos footerTres" "footerCuatro footerCuatro footerCinco"; }
+    grid-template-areas: "footerUno footerDos" "footerTres footerTres" ". footerCuatro"; }
   .footerUno {
     grid-area: footerUno; }
   .footerDos {
@@ -369,8 +408,21 @@ body {
     grid-area: footerCuatro;
     justify-content: center;
     align-items: center; }
-  .footerCinco {
-    grid-area: footerCinco; }
+  .footerDescripcion {
+    width: 100%; }
+  .redes {
+    width: 60%;
+    font-size: 50px; }
+  .footerSearch {
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .footer__powered {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px; }
   #equipoImagenes {
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
@@ -379,11 +431,11 @@ body {
     margin-right: 10px;
     grid-template-areas: "equipoUno equipoDos" "equipoTres equipoCuatro"  "equipoCinco equipoSeis"; }
   .navbar-brand {
-    width: 30% !important; } }
+    width: 30px !important; } }
 
 @media only screen and (max-width: 480px) {
   .contenedor {
-    grid-template-rows: 3% 77% 20%;
+    grid-template-rows: 4% 66% 30%;
     grid-template-columns: 100%; }
   .imagenProyectos {
     grid-template-columns: 100%;
@@ -413,6 +465,19 @@ body {
   .footer {
     display: flex;
     flex-direction: column;
-    height: 400px; }
+    height: 100%; }
+  .footerDescripcion {
+    width: 100%; }
+  .redes {
+    width: 100%; }
+  .footerSearch {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .footer__powered {
+    align-items: center;
+    align-content: center;
+    margin-left: 200px; }
   .navbar-brand {
     width: 30% !important; } }

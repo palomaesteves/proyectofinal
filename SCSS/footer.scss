@@ -1,6 +1,30 @@
+.footer {
+    height: 220px;
+    flex-basis: 100%;
+    margin-top: 20px;
+    background-color: lightgray;
+    display: flex;
+    grid-template-areas: 
+    "footerUno footerDos footerTres"
+    "footerCuatro footerCuatro";
+}
+.footerUno{
+grid-area: footerUno;
+}
+.footerDos{
+grid-area: footerDos;
+}
+.footerTres{
+grid-area: footerTres;
+}
+.footerCuatro{
+grid-area: footerCuatro;
+justify-content: center;
+align-items: center;
+}
 .redes{
     width: 33%;
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,15 +40,9 @@
 
 }
 .redes .fab:hover{
-    font-size: 45px;
+    font-size: 55px;
 }
-.footer {
-    height: 220px;
-    flex-basis: 100%;
-    margin-top: 20px;
-    background-color: lightgray;
-    display: flex;
-}
+
 .footer__powered{
       width: 5%;
       font-family: 'Courier New', Courier, monospace;
@@ -32,6 +50,7 @@
       align-items: flex-end;
       font-size: 10px;  
       text-align: center;
+      flex-direction: row-reverse;
     }
    
 .footerSearch{

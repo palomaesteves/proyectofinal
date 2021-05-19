@@ -14,6 +14,7 @@
 </head>
 <body>
     <div class="contenedor"> 
+            <!--empieza el menu-->
             <header class="menu">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
@@ -21,6 +22,9 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand" href="index.html">
+                          <img src="../multimedia/Untitled design.png" alt="" width="20" height="24">
+                        </a>
                         <ul class="navbar-nav">
                           <li class="nav-item">
                             <a class="nav-link" href="../index.html">Inicio</a>
@@ -42,12 +46,13 @@
                     </div>
                   </nav>
             </header>
+            <!--termina el menu-->
             <!--empieza el equipo-->
         <div class="contenido">
             <section class="equipo" class="clearFix">
                 <div class="equipo__conteiner">
                     <h1 class="textoTitulos" class="equipo__titulo"> Nuestro Equipo </h1>
-                    <h2 class="textoDescripcion">El estudio está en constante búsqueda de mejorar, crecer y ofrecer a cada uno de nuestros clientes el mejor servicio en diseño y arquitectura.</h2>
+                    <h2 class="textoDescripcion">El estudio está en constante búsqueda de mejorar, crecer y ofrecer a cada uno de nuestros clientes el mejor servicio en diseño y arquitectura. El equipo está conformado por profesionales apasionados que cuentan con una larga experiencia y trayectoria en el mercado de la arquitectura. </h2>
                     <br>
                     <div id="equipoImagenes"> 
                         <div class="equipo__integrantes__todos" id="equipoUno"> 
@@ -55,6 +60,8 @@
                                 <img class="equipo__imagen" src="../multimedia/Equipo/professional portrait headshot.jpeg" alt="equipoUno">
                             <p class="equipo__posicion">Arquitecto Asociado</p>
                             <p class="equipo__descripcion"> <strong>Encargado del proceso de obra</strong>
+                                <br>
+                                Martina Rodrigues
                                 <br>
                                 Universidad de Buenos Aires 
                             </p>
@@ -66,6 +73,8 @@
                                 <p class="equipo__posicion"> <strong>Arquitecto Asociado </strong></p>
                                 <p class="equipo__descripcion">Dibujante renderista
                                 <br>
+                                Juan Gomez
+                                <br>
                                 Universidad de Buenos Aires
                                 </p>
                             </div>
@@ -75,6 +84,8 @@
                                 <img class="equipo__imagen" src="../multimedia/Equipo/imagenEquipoTres.jpeg" alt="equipoTres">
                                 <p class="equipo__posicion"> <strong>Arquitecto Asociado </strong></p>
                                 <p class="equipo__descripcion">Ayudante de obra
+                                <br>
+                                Juana Peña
                                 <br>
                                 Universidad de Belgrano
                             </p>
@@ -86,6 +97,8 @@
                                 <p class="equipo__posicion"> <strong> Arquitecto Asociado </strong></p>
                                 <p class="equipo__descripcion">Dibujante encargado realizar renders
                                     <br>
+                                    Martin Gutierrez
+                                    <br>
                                     Universidad Torcuato DiTella
                                 </p>
                             </div>
@@ -95,6 +108,8 @@
                                 <img class="equipo__imagen" src="../multimedia/Equipo/imagenEquipoCinco.jpeg">
                                 <p class="equipo__posicion"> <strong> Decorador de Interiores</strong></p>
                                 <p class="equipo__descripcion"> Encargada realizar renders
+                                    <br>
+                                    Lila Martinez
                                     <br>
                                     Universidad de Palermo
                                 </p>
@@ -106,6 +121,8 @@
                                 <p class="equipo__posicion"> <strong> Decorador de Interiores</strong></p>
                                 <p class="equipo__descripcion">Especialista en paisajista
                                     <br>
+                                    Rosario Perez
+                                    <br>
                                     Universidad Católica Argentina
                                 </p>
                             </div>
@@ -116,31 +133,36 @@
         <!--Empieza el footer-->
         <br>
         <footer>
-            <div class="footer" class="footerGrid">  
-              <div class="footerDescripcion" class="seccionUno">
-                <h3>Contactanos</h3>
-                  <p class="footerTexto"> 
-                    Av. del Libertador 742
-                    <br>
-                    Vicente Lopez, B1638 BEG
-                    <br>
-                    Provincia de Buenos Aires, Argentina
-                    <br>
-                    <strong>Email</strong>
-                    andreafossa@arquitectura.com
-                      <br>
-                    Teléfono: +54911 6003-2579
-                   </p>
+          <div class="footer" class="footerGrid">  
+            <div class="footerDescripcion" class="seccionUno" class="footerUno">
+              <h3>Contactanos</h3>
+                <p class="footerTexto"> 
+                  Av. del Libertador 742
+                  <br>
+                  Vicente Lopez, B1638 BEG
+                  <br>
+                  Provincia de Buenos Aires, Argentina
+                  <br>
+                  Teléfono: +54911 6003-2579
+                  <br>
+                  Email andreafossa@arquitectura.com
+                 </p>
+            </div>
+            <div class="redes" class="footerDos">
+              <i class="fab fa-facebook-square"><a href="https://www.facebook.com/profile.php?id=100067699167028"></a></i> 
+              <i class="fab fa-instagram-square"><a href="https://www.instagram.com/andreafossaarq/"></a></i>
+            </div>
+              <div class="footerSearch" class="footerTres">
+                <form class="searchFlex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
-              <div class= "logos">
-                <i class="logos__nav" class="fab fa-facebook-square" ></i>
-                <i class="logos__nav" class="fab fa-instagram"></i>
+              <div class="footer__powered" class="footerCuatro">
+                    <p>Powered by Paloma</p>
               </div>
-          <div class="footer__powered">
-                <p>Powered by Paloma</p>
-          </div>
-          </div>
-          </footer>
+        </div>
+        </footer>
         <!--Termina el footer-->
     </div>
     </div>
