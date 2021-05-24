@@ -1,7 +1,5 @@
 form{
     display: block;
-    margin-top: 0em;
-        
         fieldset{
             text-align: center;
             
@@ -28,8 +26,8 @@ form{
                 }
             
 }
-.boton{
-    color: #991717;
+.sectionContacto{
+    margin-top: 100px;
 }
 .sectionContacto__texto{
     height: 200px;
@@ -38,4 +36,11 @@ form{
     line-height: inherit;
     margin-top: 20px;
     padding: 15px;
+}
+.sectionContacto__botones{
+    margin-left: 10px;
+}
+.botones{
+    text-align: center;
+    margin-top: 20px;
 }

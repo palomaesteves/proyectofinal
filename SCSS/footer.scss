@@ -1,7 +1,6 @@
 .footer {
-    height: 220px;
+    height: 100%;
     flex-basis: 100%;
-    margin-top: 20px;
     background-color: lightgray;
     display: flex;
     grid-template-areas: 
@@ -19,18 +18,21 @@ grid-area: footerTres;
 }
 .footerCuatro{
 grid-area: footerCuatro;
-justify-content: center;
-align-items: center;
+width: 14%;
 }
 .redes{
-    width: 33%;
-    font-size: 50px;
+    width: 25%;
+    font-size: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     cursor: pointer;
-    color: black;
+    color: black !important;
+    margin-left: -20px;
+}
+a{
+    color:black !important;
 }
 .redes .fab{
     margin: 30px;
@@ -40,11 +42,11 @@ align-items: center;
 
 }
 .redes .fab:hover{
-    font-size: 55px;
+    font-size: 60px;
+    color:rgb(90, 105, 90);
 }
 
 .footer__powered{
-      width: 5%;
       font-family: 'Courier New', Courier, monospace;
       display: flex;
       align-items: flex-end;
@@ -52,31 +54,22 @@ align-items: center;
       text-align: center;
       flex-direction: row-reverse;
     }
-   
-.footerSearch{
-    width: 29%;
-    align-content: center;
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    margin-top: 90px;
+.text-center{
+    margin-top: 25px;
 }
-.searchFlex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.input-group-btn{
+    margin-left: 3px !important;
 }
-.btn btn-outline-success{
-    color: rgb(90, 105, 90) !important;
-    border-color: rgb(90, 105, 90) !important;
+.btn{
+    border: 1px solid  rgb(90, 105, 90) !important;
 }
-.form-control me-2{
-    display: flex !important;
+.jumbotron{
+    width: 36%;
 }
 
 .footerDescripcion{
         font-family: Raleway;
-        width: 33%;
+        width: 25%;
         justify-content: center;
         align-items: center;
 }
@@ -89,4 +82,14 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.imagenFooter{
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: 35%;
+    margin-top: 25%;
+    margin-bottom: 40px;
+}
+.mx-auto-footer{
+    margin-right: auto!important;
 }
