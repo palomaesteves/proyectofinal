@@ -32,7 +32,6 @@ body{
     grid-area: footer;
 }
 
-
 #carrouselIndex{
     width: 100%;
     height: 100%;
@@ -123,7 +122,6 @@ body{
                 max-width: 100%;
                 max-height: 100%;
                 column-gap: 2%;
-                row-gap: 3%;
                 object-fit: cover;
                 grid-template-areas: 
                         "footerUno footerDos"
@@ -161,16 +159,11 @@ body{
                 width: 100%;
                 display: flex;
                 flex-direction: row-reverse;
-                margin-top: -30px;
                 margin-bottom: 0px !important;
-                margin-left: 30px;
+                margin-left: -50px;
               }
             .imagenFooter{
-                max-width: 100%;
-                max-height: 100%;
-                margin-top: -10px;
-                margin-right: 30px;
-                margin-bottom: 20px;
+               display: none;
             }
             .input-group{
                 margin-left: 20px;
